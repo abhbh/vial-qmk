@@ -3,13 +3,14 @@
 /* key matrix size */
 #define TAPPING_TERM 100
 #define DEBOUNCE 5
-
+#define ENCODERS_PAD_A { GP28 }
+#define ENCODERS_PAD_B { GP29 }
+#define ENCODERS_PAD_A_RIGHT { GP29 }
+#define ENCODERS_PAD_B_RIGHT { GP28 }
 #define ENCODER_RESOLUTION 4
 
 #define TAP_CODE_DELAY 10
 
-#define SPLIT_HAND_PIN GP4
-#define	SPLIT_HAND_PIN_LOW_IS_LEFT
 #define USB_VBUS_PIN 19
 #define USE_SERIAL
 #define SERIAL_PIO_USE_PIO0

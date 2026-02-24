@@ -9,11 +9,6 @@
         "pid": "0x0287",
         "device_version": "1.0.0"
     },
-    "encoder": {
-        "rotary": [
-            { "pin_a": "GP28", "pin_b": "GP29" }
-        ]
-    },
     "rgb_matrix": {
         "split_count": [29, 29],
         "layout": [
@@ -78,15 +73,7 @@
             { "flags": 4, "matrix": [5, 0], "x":224, "y":  7 }
         ]
     },
-    "split": {
-        "encoder": {
-            "right": {
-                "rotary": [
-                    { "pin_a": "GP29", "pin_b": "GP28" }
-                ]
-            }
-        }
-    },
+  
     "ws2812": {
         "pin": "GP0"
     },
