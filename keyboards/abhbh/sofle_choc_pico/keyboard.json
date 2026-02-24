@@ -1,7 +1,7 @@
 {
-    "manufacturer": "PandaKB.COM",
+    "manufacturer": "PandaKB",
     "keyboard_name": "Sofle Choc Pico",
-    "maintainer": "PandaKB.COM",
+    "maintainer": "abhbh",
     "diode_direction": "COL2ROW",
     "url": "https://github.com/josefadamcik/SofleKeyboard",
     "usb": {
